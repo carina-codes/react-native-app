@@ -81,7 +81,6 @@ const SignUp = () => {
               value={form.password}
               handleChangeText={(e) => setForm({ ...form, password: e })}
               otherStyles="mt-7"
-              secureTextEntry={true}
             />
             <Text className="text-sm text-gray-400 mt-2">
               Password must be at least 8 characters long and not a commonly used password.
